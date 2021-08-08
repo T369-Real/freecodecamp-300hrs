@@ -1,0 +1,11 @@
+Establece la familia de fuentes de un elemento
+
+Puedes utilizar la propiedad font-family (familia de fuente) para establecer qué fuente debe usar un elemento.
+
+Por ejemplo, si quieres establecer la fuente de tu elemento h2 a sans-serif, usarías el siguiente CSS:
+
+h2 {
+  font-family: sans-serif;
+}
+
+Haz que todos tus elementos p usen la fuente monospace.

@@ -1,0 +1,13 @@
+Cambia el tamaño de tus imágenes
+
+CSS tiene una propiedad llamada width que controla el ancho de un elemento. Al igual que con las fuentes, usaremos la unidad de medida px (píxeles) para especificar el ancho de la imagen.
+
+Por ejemplo, si queremos crear una clase CSS llamada larger-image que le asigne a los elementos HTML un ancho de 500 píxeles, usamos el siguiente código:
+
+<style>
+  .larger-image {
+    width: 500px;
+  }
+</style>
+
+Crea una clase llamada smaller-image y úsala para redimensionar la imagen de modo que solo tenga 100 píxeles de ancho.

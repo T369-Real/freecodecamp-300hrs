@@ -1,0 +1,5 @@
+Haz imágenes circulares usando border-radius (radio de borde)
+
+Además de los píxeles, también puedes especificar el border-radius usando un porcentaje.
+
+Dale a tu foto de gato un border-radius de 50%.

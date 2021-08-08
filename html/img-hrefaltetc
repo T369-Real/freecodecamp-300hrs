@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Imagenes,href,alt,a</title>
+</head>
+<body>
+<main>
+<img src="url de imagen o path" alt=""> <!--apuntar a la URL de una imagen específica usando el atributo src,alt es utilizado por los lectores de pantalla para mejorar la accesibilidad y se muestra si la imagen falla en cargar.-->
+<!--Nota:Si una imagen es solo decorativa es de buena practica utilizar un atributo alt vacio-->
+
+<a href="#"><img src=""></a> <!--Puedes usar los elementos a (anchor) para enlazar a contenido fuera de tu página web.-->
+<!--Nota:Convertir una imagen en un enlace-->
+<!--Enlaza hacia secciones internas de una página con los elementos anchor
+
+Para crear un enlace interno, asignas el atributo href de un enlace con un símbolo hash # más el valor del atributo id
+ para el elemento al que deseas enlazar internamente, normalmente más 
+abajo de la página. Luego necesitas agregar el mismo atributo id al elemento que estás enlazando. Un id es un atributo que describe un elemento de forma única.
+-->
+  
+  <a href="#footer">jump to bottom</a>
+  <!--<p> <a target="_blank"> esto provoca que el documento enlazado se abra en una nueva pestaña.</p>-->
+  
+  <footer id="footer">Copyrigth</footer>
+</main>
+</body>
+</html>

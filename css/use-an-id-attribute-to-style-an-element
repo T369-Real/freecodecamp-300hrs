@@ -1,0 +1,15 @@
+Usa un atributo de id para aplicar estilo a un elemento
+
+Una cosa genial de los atributos id es que, al igual que las clases, puedes aplicarles estilos con CSS.
+
+Sin embargo, un id no es reutilizable y solo debe aplicarse a un único elemento. Un id también tiene mayor especificidad (importancia) que una clase, así que si aplicas un id y una clase al mismo elemento y sus estilos se contradicen, se aplicarán los estilos del id.
+
+A continuación te mostramos un ejemplo de cómo puedes tomar tu elemento con el atributo id llamado cat-photo-element y asignarle el color de fondo verde. En tu elemento style agrega la siguiente declaración:
+
+#cat-photo-element {
+  background-color: green;
+}
+
+Ten en cuenta que dentro de tu elemento style siempre debes hacer referencia a las clases agregándoles un punto . adelante del nombre. Para hacer referencia a un id, debes agregar # delante de su nombre.
+
+Intenta asignar a tu formulario, que ahora tiene el atributo id llamado cat-photo-form, un fondo verde.

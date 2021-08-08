@@ -1,0 +1,13 @@
+Establece el id de un elemento
+
+Además de las clases, cada elemento HTML también puede tener un atributo id.
+
+Existen varios beneficios de usar atributos de id: Puedes usar un id para dar estilo a un elemento específico; más adelante aprenderás que puedes usar atributos "id" para seleccionar y modificar elementos específicos por medio de JavaScript.
+
+Los atributos id deben ser únicos. Los navegadores no verifican esta regla, pero es una buena práctica ampliamente aceptada. Entonces, por favor ten cuidado de no asignar a más de un elemento el mismo atributo id.
+
+A continuación te mostramos un ejemplo de cómo asignar a tu elemento h2 el id cat-photo-app:
+
+<h2 id="cat-photo-app">
+
+Asigna a tu elemento form el id cat-photo-form.

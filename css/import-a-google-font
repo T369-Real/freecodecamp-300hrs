@@ -1,0 +1,21 @@
+Importa una fuente de Google Fonts
+
+Además de especificar fuentes comunes disponibles en la mayoría de los sistemas operativos, también podemos especificar fuentes web no estándar y personalizadas para usarlas en nuestro sitio web. En Internet hay muchos lugares donde podemos conseguir web fonts. Para este ejemplo nos centraremos en la biblioteca de Google Fonts.
+
+Google Fonts es una biblioteca gratuita de web fonts que puedes utilizar en tu código CSS, haciendo referencia a la URL de la fuente.
+
+Entonces, importemos y apliquemos una fuente de Google (ten en cuenta que si Google está bloqueado en tu país, tendrás que pasar por alto este desafío).
+
+Para importar una fuente de Google, puedes copiar la URL de la fuente desde la librería de Google Fonts y luego pegarla en tu código HTML. Para este desafío, importaremos la fuente Lobster. Para ello, copia el siguiente fragmento de código y pégalo en la parte superior de tu editor de código (antes de abrir el elemento style):
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+Ahora puedes usar la fuente Lobster en tu CSS usando Lobster como FAMILY_NAME como en el siguiente ejemplo:
+
+font-family: FAMILY_NAME, GENERIC_NAME;
+
+GENERIC_NAME es opcional, y es el modo de especificar una fuente de reserva o "fallback font" en caso de que la otra fuente especificada no esté disponible. Veremos esto en el siguiente desafío.
+
+Los nombres de familia de fuentes son sensibles a mayúsculas y minúsculas, y si incluyen espacios deben estar envueltos entre comillas. Por ejemplo, necesitas comillas para usar la fuente "Open Sans", pero no las necesitas para usar la fuente Lobster.
+
+Importa la fuente Lobster a tu página web. Luego, usa un selector de elementos para establecer Lobster como font-family en tu elemento h2.

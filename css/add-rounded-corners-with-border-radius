@@ -1,0 +1,7 @@
+Añade esquinas redondeadas usando border-radius
+
+Actualmente, las esquinas de tu foto de gato son puntiagudas. Podemos redondear esas esquinas con una propiedad CSS llamada border-radius (radio del borde).
+
+Puedes especificar un border-radius usando píxeles como unidad de medida. Dale a tu foto de gato un border-radius de 10px.
+
+Nota: Este desafío acepta múltiples soluciones posibles. Por ejemplo, puedes añadir border-radius a la clase .thick-green-border o a la clase .smaller-image.

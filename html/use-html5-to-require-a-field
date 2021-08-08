@@ -1,0 +1,8 @@
+Use HTML5 para requerir un campo
+Puede solicitar campos de formulario específicos para que su usuario no pueda enviar su formulario hasta que los haya completado.
+
+Por ejemplo, si desea que un campo de entrada de texto sea obligatorio, puede agregar el atributo requireddentro de su inputelemento, así:<input type="text" required>
+
+Haga de su texto inputun requiredcampo, para que su usuario no pueda enviar el formulario sin completar este campo.
+
+Luego intente enviar el formulario sin ingresar ningún texto. ¿Ves cómo tu formulario HTML5 te notifica que el campo es obligatorio?
