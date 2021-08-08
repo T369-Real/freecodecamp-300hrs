@@ -1,9 +1,0 @@
-Marca botones de radio y casillas de verificación por defecto
-
-Puedes hacer que una casilla de verificación o botón de radio se marque por defecto usando el atributo checked.
-
-Para hacer esto, simplemente agrega la palabra checked al interior de un elemento de entrada. Por ejemplo:
-
-<input type="radio" name="test-name" checked>
-
-Establece el primero de tus botones de radio y la primera de tus casillas de verificación para que ambos sean marcados por defecto.
