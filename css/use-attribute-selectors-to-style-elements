@@ -1,0 +1,13 @@
+Usa selectores de atributos para dar estilo a elementos
+
+Hasta ahora, has añadido atributos id o class a elementos para aplicarles estilos específicos. Estos se conocen también como selectores de ID y de clase. Sin embargo, existen otros selectores CSS que puedes utilizar para seleccionar grupos personalizados de elementos a los que quieras aplicar el mismo estilo.
+
+Volvamos a nuestra CatPhotoApp para practicar el uso de selectores CSS.
+
+Para este desafío, usarás el selector de atributos [attr=value] para aplicar estilo a las casillas de verificación (checkboxes) en CatPhotoApp. Este selector busca estilos que tengan un valor de atributo específico. Por ejemplo, el código a continuación cambia los márgenes de todos los elementos que tengan el atributo type con el valor radio:
+
+[type='radio'] {
+  margin: 20px 0px 20px 0px;
+}
+
+Usando el selector de atributos type, intenta asignar a las casillas de verificación de CatPhoto App un margen superior (margin-top) de 10px y un margen inferior (margin-bottom) de 15px.
