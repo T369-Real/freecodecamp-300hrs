@@ -1,0 +1,7 @@
+Añade un "padding" o relleno diferente a cada lado de un elemento
+
+En ocasiones, querrás personalizar un elemento para que tenga un padding o relleno diferente en cada uno de sus lados.
+
+CSS te permite controlar por separado el padding de los cuatro lados individuales de un elemento por medio de las propiedades padding-top, padding-right, padding-bottom y padding-left.
+
+Asigna a la caja azul un padding de 40px en sus lados superior e izquierdo, pero sólo de 20px en sus lados inferior y derecho.

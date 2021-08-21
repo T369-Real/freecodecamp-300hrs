@@ -1,0 +1,7 @@
+Añade márgenes diferentes a cada lado de un elemento
+
+En ocasiones, querrás personalizar un elemento para que tenga un margin diferente en cada uno de sus lados.
+
+CSS te permite controlar por separado el margin de los cuatro lados individuales de un elemento por medio de las propiedades margin-top, margin-right, margin-bottom y margin-left.
+
+Asigna a la caja azul un margin de 40px en sus lados superior e izquierdo, pero sólo de 20px en sus lados inferior y derecho.
