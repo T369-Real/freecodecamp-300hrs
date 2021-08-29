@@ -1,0 +1,11 @@
+Sobreescribe estilos en código CSS posterior
+
+¡Nuestra clase pink-text sobrescribió la declaración CSS de nuestro elemento body!
+
+Acabamos de demostrar que nuestras clases sobrescribirán el CSS del elemento body. Entonces, la siguiente pregunta lógica es: ¿qué podemos hacer para sobrescribir nuestra clase pink-text?
+
+Crea una clase CSS adicional llamada blue-text que asigne a un elemento el color azul ("blue"). Asegúrate de que esté debajo de tu declaración de pink-text.
+
+Aplica la clase blue-text a tu elemento h1 además de tu clase pink-text, y veamos cuál de las dos gana.
+
+Para aplicar múltiples atributos de clase a un elemento HTML debes dejar un espacio entre ellos, como se muestra a continuación:

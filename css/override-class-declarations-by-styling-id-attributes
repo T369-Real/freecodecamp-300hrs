@@ -1,0 +1,21 @@
+Sobreescribe declaraciones de clase dando estilo a atributos ID
+
+Acabamos de comprobar que los navegadores leen CSS desde arriba hacia abajo siguiendo el orden de las declaraciones. Por lo tanto, si llega a ocasionarse un conflicto, el navegador utilizará la última declaración CSS. Ten en cuenta que incluso si hubiésemos puesto blue-text antes que pink-text en nuestro elemento de clase h1, seguiría buscando al orden de la declaración y no al orden de su uso.
+
+Pero todavía no terminamos. Hay otras formas de sobreescribir CSS. ¿Recuerdas los atributos id?
+
+Sobrescribamos tus clases pink-text y blue-text, y haz que el h1 sea naranja al darle al elemento h1 un id y luego estilizando ese id.
+
+Dale al elemento h1 el atributo id de orange-text. Recuerda, los estilos id se ven así:
+
+<h1 id="orange-text">
+
+Deja las clases blue-text y pink-text en tu elemento h1.
+
+Crea una declaración CSS para el id orange-text en el elemento style. Aquí hay un ejemplo de cómo se debería ver:
+
+#brown-text {
+  color: brown;
+}
+
+Nota: No importa si declaras este CSS arriba o debajo de la clase pink-text, ya que el atributo id siempre tendrá precedencia.
