@@ -1,0 +1,16 @@
+Sobreescribe todos los demás estilos usando !important
+
+¡Excelente! Acabamos de demostrar que los estilos en línea sobrescribirán todas las declaraciones CSS en tu elemento style.
+
+Pero, ¡aguarda! Existe una última forma de sobreescribir CSS. Este es el método más poderoso de todos. Pero antes de utilizarlo, consideremos por qué querrías sobreescribir una regla CSS.
+
+En muchas situaciones usarás librerías de CSS. Estas librerías pueden sobreescribir accidentalmente tu propio código CSS. Entonces, cuando necesites asegurarte de que a un elemento se le aplique un código CSS específico, puedes usar !important.
+
+Volvamos a nuestra declaración de la clase pink-text. Recuerda que nuestra clase pink-text fue sobreescrita por declaraciones posteriores de clases, declaraciones de id e "inline styles".
+
+Añade la palabra clave !important a la declaración de color de pink-text para asegurarte completamente de que tu elemento h1 será de color rosado.
+
+Aquí te mostramos un ejemplo de cómo hacerlo:
+
+color: red !important;
+
